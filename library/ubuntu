@@ -1,57 +1,135 @@
-# see https://partner-images.canonical.com/core/
+# see https://partner-images.canonical.com/oci/
 # see also https://wiki.ubuntu.com/Releases#Current
 
-Maintainers: Tomáš Virtus <tomas.virtus@canonical.com> (@woky), Michael Hudson-Doyle <michael.hudson@ubuntu.com> (@mwhudson)
-GitRepo: https://git.launchpad.net/cloud-images/+oci/ubuntu-base
-GitCommit: 42f91a1d38193121ecc9c3bf95a19c4ceed38f58
-# https://git.launchpad.net/cloud-images/+oci/ubuntu-base/tree/?h=dist-amd64
-amd64-GitFetch: refs/heads/dist-amd64
-amd64-GitCommit: 0b99ba2f4ec4dbe55b72c6b1c81eed4393b33346
-# https://git.launchpad.net/cloud-images/+oci/ubuntu-base/tree/?h=dist-arm32v7
-arm32v7-GitFetch: refs/heads/dist-arm32v7
-arm32v7-GitCommit: c1c74b7c7d3a868121c8ae5148524a720a08bcfb
-# https://git.launchpad.net/cloud-images/+oci/ubuntu-base/tree/?h=dist-arm64v8
-arm64v8-GitFetch: refs/heads/dist-arm64v8
-arm64v8-GitCommit: 61d299eb91851e63d5f9b83deb2363f7520a904b
-# https://git.launchpad.net/cloud-images/+oci/ubuntu-base/tree/?h=dist-i386
-i386-GitFetch: refs/heads/dist-i386
-i386-GitCommit: 593ab9e382c2142a2e86be9935a67ab6cbddb49d
-# https://git.launchpad.net/cloud-images/+oci/ubuntu-base/tree/?h=dist-ppc64le
-ppc64le-GitFetch: refs/heads/dist-ppc64le
-ppc64le-GitCommit: 593875aba76071397a2e2b5cc2c79ac3f129afbd
-# https://git.launchpad.net/cloud-images/+oci/ubuntu-base/tree/?h=dist-riscv64
-riscv64-GitFetch: refs/heads/dist-riscv64
-riscv64-GitCommit: 0fb69a7b05d5a35fc6a2893d1fddc4945f6a8589
-# https://git.launchpad.net/cloud-images/+oci/ubuntu-base/tree/?h=dist-s390x
-s390x-GitFetch: refs/heads/dist-s390x
-s390x-GitCommit: 1802deb23dd5dbe15f52d9283a79d19fe966207b
+Maintainers: Tomáš Virtus <tomas.virtus@canonical.com> (@woky), Tianon Gravi <tianon@debian.org> (@tianon), Michael Hudson-Doyle <michael.hudson@ubuntu.com> (@mwhudson)
+GitRepo: https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base
+GitCommit: 329af23ae873323703d0d1d3d88fc223110d755f
 
-# 20220829 (bionic)
-Tags: 18.04, bionic-20220829, bionic
+# 20220902 (bionic)
+Tags: 18.04, bionic-20220902, bionic
 Architectures: amd64, arm32v7, arm64v8, i386, ppc64le, s390x
-Directory: bionic
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-bionic-amd64-20220902
+amd64-GitFetch: refs/heads/dist-bionic-amd64-20220902
+amd64-GitCommit: dc981da75b9c56d4f4d41813a2f4f7ba38d822ff
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-bionic-arm32v7-20220902
+arm32v7-GitFetch: refs/heads/dist-bionic-arm32v7-20220902
+arm32v7-GitCommit: 43562ed6ab3ae0c6cba349d4123c0d6b0a1e1c4b
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-bionic-arm64v8-20220902
+arm64v8-GitFetch: refs/heads/dist-bionic-arm64v8-20220902
+arm64v8-GitCommit: 4ad4f480431194b74dd0dc91f04c996dea34081a
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-bionic-i386-20220902
+i386-GitFetch: refs/heads/dist-bionic-i386-20220902
+i386-GitCommit: 863a7c7a4bfbeefeb10d853f4a1b52e7c4fd4718
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-bionic-ppc64le-20220902
+ppc64le-GitFetch: refs/heads/dist-bionic-ppc64le-20220902
+ppc64le-GitCommit: 9459d8527885b09503f3d47cbeb0deae2cf0b54b
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-bionic-s390x-20220902
+s390x-GitFetch: refs/heads/dist-bionic-s390x-20220902
+s390x-GitCommit: 50230896d80beca69323f882bb71d1e2867de62e
 
 # 20220826 (focal)
 Tags: 20.04, focal-20220826, focal
 Architectures: amd64, arm32v7, arm64v8, ppc64le, riscv64, s390x
-Directory: focal
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-focal-amd64-20220826
+amd64-GitFetch: refs/heads/dist-focal-amd64-20220826
+amd64-GitCommit: 497d544f6ee2ffd819b207c7db6d617040dc9698
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-focal-arm32v7-20220826
+arm32v7-GitFetch: refs/heads/dist-focal-arm32v7-20220826
+arm32v7-GitCommit: 14c8459e404078a35c7bea08956a4ac28a3ecc9e
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-focal-arm64v8-20220826
+arm64v8-GitFetch: refs/heads/dist-focal-arm64v8-20220826
+arm64v8-GitCommit: 6be4a1e21b381a1f42cd9686e6aa1938d12f9c58
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-focal-ppc64le-20220826
+ppc64le-GitFetch: refs/heads/dist-focal-ppc64le-20220826
+ppc64le-GitCommit: 0c1697c8728618ad76e60de89f544b87c5d687c1
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-focal-riscv64-20220826
+riscv64-GitFetch: refs/heads/dist-focal-riscv64-20220826
+riscv64-GitCommit: 529a48ee688c494619a888d52fed6ea5693a5ec6
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-focal-s390x-20220826
+s390x-GitFetch: refs/heads/dist-focal-s390x-20220826
+s390x-GitCommit: 4a692f19cae6b87294c1543bd752b3140fa737fd
 
 # 20220815 (jammy)
 Tags: 22.04, jammy-20220815, jammy, latest, rolling
 Architectures: amd64, arm32v7, arm64v8, ppc64le, riscv64, s390x
-Directory: jammy
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-jammy-amd64-20220815
+amd64-GitFetch: refs/heads/dist-jammy-amd64-20220815
+amd64-GitCommit: a68ff212ada6c13410105f5493f542005a105f18
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-jammy-arm32v7-20220815
+arm32v7-GitFetch: refs/heads/dist-jammy-arm32v7-20220815
+arm32v7-GitCommit: b02f0679a8a02acd8b3551b7f0218649b79305f8
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-jammy-arm64v8-20220815
+arm64v8-GitFetch: refs/heads/dist-jammy-arm64v8-20220815
+arm64v8-GitCommit: 8a9a711d76a0cef2cc97860e05cc21a79cc7fa80
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-jammy-ppc64le-20220815
+ppc64le-GitFetch: refs/heads/dist-jammy-ppc64le-20220815
+ppc64le-GitCommit: a73c22852c1b0df1a18cccf147d977d86228a2b6
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-jammy-riscv64-20220815
+riscv64-GitFetch: refs/heads/dist-jammy-riscv64-20220815
+riscv64-GitCommit: 0c0713c5b61d1557b5a7aa4d45b336b72650b14e
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-jammy-s390x-20220815
+s390x-GitFetch: refs/heads/dist-jammy-s390x-20220815
+s390x-GitCommit: 739c3e7209425c56ef31036abf62f7b5db466e22
 
-# 20220830 (kinetic)
-Tags: 22.10, kinetic-20220830, kinetic, devel
+# 20220904 (kinetic)
+Tags: 22.10, kinetic-20220904, kinetic, devel
 Architectures: amd64, arm32v7, arm64v8, ppc64le, riscv64, s390x
-Directory: kinetic
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-kinetic-amd64-20220904
+amd64-GitFetch: refs/heads/dist-kinetic-amd64-20220904
+amd64-GitCommit: b8cbee3793f8f6f6666ea64d7979d9d8b15d68f5
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-kinetic-arm32v7-20220904
+arm32v7-GitFetch: refs/heads/dist-kinetic-arm32v7-20220904
+arm32v7-GitCommit: 9f17d344be59dc544b065ca3093f43a58991a21d
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-kinetic-arm64v8-20220904
+arm64v8-GitFetch: refs/heads/dist-kinetic-arm64v8-20220904
+arm64v8-GitCommit: b67155042d6f7777099a5c076c2a35b98478694b
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-kinetic-ppc64le-20220904
+ppc64le-GitFetch: refs/heads/dist-kinetic-ppc64le-20220904
+ppc64le-GitCommit: 0bc6be71a4710d723a522a575040e6b021ae82d2
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-kinetic-riscv64-20220904
+riscv64-GitFetch: refs/heads/dist-kinetic-riscv64-20220904
+riscv64-GitCommit: a1d492774dedb3bea5cd262d8bbeb993651f56d7
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-kinetic-s390x-20220904
+s390x-GitFetch: refs/heads/dist-kinetic-s390x-20220904
+s390x-GitCommit: a7dd5737a6e9949f75d9cd2ff7caa4bd95572157
 
 # 20191217 (trusty)
 Tags: 14.04, trusty-20191217, trusty
 Architectures: amd64, arm32v7, arm64v8, i386, ppc64le
-Directory: trusty
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-trusty-amd64-20191217
+amd64-GitFetch: refs/heads/dist-trusty-amd64-20191217
+amd64-GitCommit: c23202b220d2de4dc19883b4753033e042ed6b83
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-trusty-arm32v7-20191217
+arm32v7-GitFetch: refs/heads/dist-trusty-arm32v7-20191217
+arm32v7-GitCommit: 1a54a2a2e678db4268f2d38e95b82bd549cb2ed3
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-trusty-arm64v8-20191217
+arm64v8-GitFetch: refs/heads/dist-trusty-arm64v8-20191217
+arm64v8-GitCommit: 901ea53ecab16787cd554a806302024d4e5bd42f
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-trusty-i386-20191217
+i386-GitFetch: refs/heads/dist-trusty-i386-20191217
+i386-GitCommit: 555b3c034732d1c186c3ab39578c9df1dfae36a7
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-trusty-ppc64le-20191217
+ppc64le-GitFetch: refs/heads/dist-trusty-ppc64le-20191217
+ppc64le-GitCommit: f66d235c5e1201542e8e23df95b1215f34583d4f
 
 # 20210804 (xenial)
 Tags: 16.04, xenial-20210804, xenial
 Architectures: amd64, arm32v7, arm64v8, i386, ppc64le, s390x
-Directory: xenial
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-xenial-amd64-20210804
+amd64-GitFetch: refs/heads/dist-xenial-amd64-20210804
+amd64-GitCommit: 08a6e50e5ce9abc42b9f00df3bb7f8030bb1c102
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-xenial-arm32v7-20210804
+arm32v7-GitFetch: refs/heads/dist-xenial-arm32v7-20210804
+arm32v7-GitCommit: 30c5005ca6f1742e3ed8cf2735fdaebf70521aad
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-xenial-arm64v8-20210804
+arm64v8-GitFetch: refs/heads/dist-xenial-arm64v8-20210804
+arm64v8-GitCommit: f50e978abb0f485ecb81759b28187e0c8031c1eb
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-xenial-i386-20210804
+i386-GitFetch: refs/heads/dist-xenial-i386-20210804
+i386-GitCommit: 7b06ba07c6534e45edf88cae76ed51f9a73efbec
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-xenial-ppc64le-20210804
+ppc64le-GitFetch: refs/heads/dist-xenial-ppc64le-20210804
+ppc64le-GitCommit: 62d00b9be579b20920722d0ce13e8a40e76939ee
+# https://git.launchpad.net/virtustom-cloud-images2/+oci/ubuntu-base/tree/?h=dist-xenial-s390x-20210804
+s390x-GitFetch: refs/heads/dist-xenial-s390x-20210804
+s390x-GitCommit: d065a27ccf32759d4f5410816bb24fc1325ffba9
