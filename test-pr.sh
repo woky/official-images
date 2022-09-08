@@ -124,7 +124,7 @@ else
 
 	# TODO we only have "git version 2.4.1" which doesn't support "clone -q" :(
 	git init -q .
-	git remote add origin https://github.com/docker-library/official-images.git
+	git remote add origin https://github.com/woky/official-images.git
 	git fetch -q origin
 	git reset -q --hard origin/master
 	git config user.name 'nobody'

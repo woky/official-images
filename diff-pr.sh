@@ -68,7 +68,7 @@ trap "rm -rf '$tempDir'" EXIT
 cd "$tempDir"
 
 git clone --quiet \
-	https://github.com/docker-library/official-images.git \
+	https://github.com/woky/official-images.git \
 	oi
 
 if [ "$pull" != '0' ]; then
